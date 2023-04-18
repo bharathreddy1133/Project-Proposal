@@ -1,58 +1,42 @@
-# IE 555 Project Proposal Template
+# IE 555 Project Proposal
 
 --- 
-**Note**:  The *[italicized]* content below is for your reference only.  Please remove these comments before submitting.
 ---
 
 ## Team Members:  
-- **Name 1**, **UB Email Address 1** - This is the person who will submit the proposal
-- **Name 2**, **UB Email Address 2**
-- **Name 3**, **UB Email Address 3**
-- **Name 4**, **UB Email Address 4**
-
-*No more than 4 team members are allowed.  No exceptions.*
+- **Bharath Reddy Pullagurla**, - **bpullagu@buffalo.edu** 
+- **Anirudh Korkonda Bhattar**, - **akorkond@buffalo.edu**
+- **Vineeth Siddigari**, - **vsiddiga@buffalo.edu**
+- **Chimmani Sri Harsh**, - **schimman@buffalo.edu**
 
 ---
 
 ## Proposed Project Title
 
-- **Write a brief, but descriptive, title here**
+- **Feeding the Future: An Exploratory Analysis of Worldwide Food Production and Consumption**
 
---- 
-
-## Project Type
-*[Your group has two options for the course project.  Please select **one** option and provide the corresponding relevant information.]*
-
-### Option 1 - Research Paper
-*[Remove this section if you are **NOT** choosing Option 1.]*
-> Students may identify a relevant paper from an archived journal which features an algorithm/heuristic designed to solve a particular problem. This algorithm should be coded in Python and validated against the results published in the paper. A final report describing (a) the problem itself, (b) an overview of the solution procedure, (c) a description of how the test data were generating, (d) a summary of the various functions employed to execute the code, and (e) a “how-to” guide for running the Python code is expected.
-
-#### Reference
-- *[Provide a citation to the journal article, including title, authors, journal name, year.]*
-
-#### Problem Description
-- *[Provide a description of the problem defined in the reference article.]*
-
-#### Algorithm Description
-- *[Provide a description of the algorithm defined in the reference article.]*
-
-#### Source Data
-- *[Concisely explain where you plan to obtain source data on which to test the algorithm.]*
-
-#### Motivation
-- *[Explain why you chose this paper.]*
+---
  
 ### Option 2 - Online Data Analysis
-*[Remove this section if you are **NOT** choosing Option 2.]*
-> Students may develop their own programming project. In this option, students must identify a source of online data, which will be dynamically imported via Python. The Python code must utilize these data to either make decision support recommendations or provide a detailed analysis of the data. A YouTube video describing the mechanics of the Python code will be required, in addition to a “how-to” guide for running the code. All source code must be submitted, and the course instructor must be able to execute the code without errors.
-
 #### Data Sources
-- *[Provide a description of each data source you plan to use.]*
-    - *[For each data source, provide a link to the API documentation.]*
+https://www.kaggle.com/datasets/dorbicycle/world-foodfeed-production
+
+This dataset from the Food and Agriculture Organization of the United Nations provides insight into worldwide food production and consumption, focusing on a comparison between food produced for human consumption and feed produced for animals.
+
 
 #### Analysis Plan
-- *[Clearly explain the analysis you will conduct with the data.]*
-- *[Clearly justify how the chosen source data will enable your team to conduct this analysis.]*
+The analysis plan involves identifying interesting outliers in the data, determining the fastest growing countries in terms of food production and consumption, and comparing food and feed consumption.
+
+**- Identifying outliers:**
+To identify outliers, we will start by visualizing the data using scatter plots or box plots. Outliers will be data points that are significantly different from the rest of the data points. Once outliers are identified, we will investigate why they exist and if they are due to data entry errors or actual anomalous situations.
+
+**- Determining the fastest growing countries:**
+To determine the fastest growing countries, we will calculate the compound annual growth rate (CAGR) for each country's food production and consumption between two reference periods, such as 2010-2013 and 2005-2010. We will then rank the countries based on their CAGR values.
+
+**- Comparing food and feed consumption:**
+To compare food and feed consumption, we will calculate the ratio of feed to food for each food item and visualize the data using scatter plots or box plots. We will also compare the ratios between different countries to see if there are any significant differences in the way they consume food and feed.
+
+**Note**- *Based on a preliminary analysis of the data and the modules learned in class, we have developed an initial set of outcomes from the data. As we conduct further analysis, we will incorporate additional points into our analysis plan, which will be detailed in the final project report.*
 
 #### Motivation
-- *[Explain why you have chosen to conduct this analysis.  What is it about this data that interests you?]*
+The world population is projected to reach 9.7 billion by 2050, which has resulted in an increased focus on finding solutions for feeding the growing population. In response, food and agriculture organizations, entrepreneurs, and philanthropists are exploring various approaches, such as modifying our food production and consumption practices. To address this challenge, our team will conduct exploratory data analysis on the available data. The insights gleaned from this analysis can assist policymakers, food and agriculture organizations, and entrepreneurs in developing effective strategies for ensuring food security and sustainable agricultural practices.
