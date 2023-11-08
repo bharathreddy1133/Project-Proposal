@@ -1,4 +1,4 @@
-# IE 555 Project Proposal
+# IE 555 Project
 
 --- 
 ---
